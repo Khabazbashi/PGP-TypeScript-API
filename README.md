@@ -1,19 +1,9 @@
 # Puppies API with Typescript and Express
-The aim of this project was to create a REST API with Express and to get more familiar with Typescript in Node.js. The application supports the CRUD operations and is strongly types with TypeScript. 
-
-___
+The aim of this project was to create a REST API with Express and to get more familiar with Typescript in Node.js. The application supports CRUD operations. 
 
 ## **Database** 
 The database for this task is a simple in-memory store represented as a puppies object provided by the puppies.service module.
 The puppies object implements the puppies.interface.
-
-## **Puppy data model**
-The puppy object implements the puppy.interface and has the following properties:
-* id: (number)
-* name: (string)
-* breed: (string)
-* description: (string)
-* image: (string)
 
 ## **Endpoints**
 - GET: `api/puppies`
@@ -25,10 +15,10 @@ The puppy object implements the puppy.interface and has the following properties
 ___
 
 ## **Try it out** 
-1. Clone the repo: https://github.com/Khabazbashi/PGP-TypeScript-API
-2. Install dependencies: `npm i`
-3. Create a file named .env: `touch .env`
-4. Populate the .env file with the following: `PORT=7000`
+1. Clone the repo
+2. Install dependencies: `npm ci`
+3. Create a .env file: `touch .env`
+4. Populate the .env file: `PORT=7000`
 
 
 ### **Get a puppy**
